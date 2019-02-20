@@ -24,6 +24,7 @@
     -moz-box-shadow: 5px 5px 5px #818181;
 }
 
-.flex-fill {
-    flex:1;   
- }
+.nav-container{
+    border-bottom: 2px solid #dbdbdb;
+}
+
