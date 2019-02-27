@@ -1,0 +1,11 @@
+#outer-wrapper{
+    display:flex;
+    flex-direction: row
+}
+#top-bar{
+    display: flex;
+    flex-direction: column;
+}
+#tabcontent-hva-er{
+    background-color: #bdefcd;
+}
