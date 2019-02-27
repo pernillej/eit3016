@@ -1,0 +1,30 @@
+.content-wrapper {
+    align-content: center;
+    text-align: center
+}
+
+.video-container {
+    /* background-color: aquamarine; */
+    padding-top: 3%;
+    padding-bottom: 5%;
+}
+
+.budskap-container {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 80%;
+    margin-left: auto; 
+    margin-right: auto;
+    /* background-color: aquamarine; */
+}
+
+#video-frame{
+    box-shadow: 5px 5px #818181;
+    -webkit-box-shadow: 5px 5px 5px #818181;
+    -moz-box-shadow: 5px 5px 5px #818181;
+}
+
+.nav-container{
+    border-bottom: 2px solid #dbdbdb;
+}
+
