@@ -3,11 +3,11 @@
     text-align: center;
     padding-top: 3%;
     padding-bottom: 3%;
-    background-color: #F5F5F5;
+    background-color: #FAFAFA;
 }
 
 .video-container {
-    background-color: #F5F5F5;
+    background-color: #FAFAFA;
     padding-bottom: 5%;
 }
 
@@ -17,7 +17,7 @@
     width: 80%;
     margin-left: auto; 
     margin-right: auto;
-    background-color: #F5F5F5;
+    background-color: #BDDCEB;
 }
 
 #video-frame{
@@ -27,11 +27,11 @@
 }
 
 .nav-container{
-    background-color: #F5F5F5;
+    background-color: #EEEEEE;
 }
 
 .footer-content {
     align-content: center;
     text-align: center;
-    border-top: 1px solid #F5F5F5;
+    border-top: 1px solid #FAFAFA;
 }

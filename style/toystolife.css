@@ -17,7 +17,9 @@
 }
 
 #TTL-description{
-    height: 40vh;
+    /* height: 40vh;*/
+    padding-top: 2%;
+    padding-bottom: 3%;
     display: flex;
     flex-direction: column;
 }
@@ -48,24 +50,28 @@
     
 }
 #tab-hva-er{
-    background-color: #fffee2;
-    border: 1px solid #6d6a6a;
+    background-color: #F7B750;
+    /* border: 1px solid #6d6a6a; */
     border-bottom-style: none;
+    color: black;
 }
 #tab-hode{
-    background-color: #a0e1eb;
-    border: 1px solid #6f9ba1;
+    background-color: #49A8DA;
+    /* border: 1px solid #6f9ba1; */
     border-bottom-style: none;
+    color: black;
 }
 #tab-klode{
-    background-color: #bdefcd;
-    border: 1px solid #92b99e;
+    background-color: #90C666;
+    /* border: 1px solid #92b99e; */
     border-bottom-style: none;
+    color: black;
 }
 #tab-hva-kan{
-    background-color: #bb9ac9;
-    border: 1px solid #8d7497;
+    background-color: #DD4945;
+    /* border: 1px solid #8d7497; */
     border-bottom-style: none;
+    color: black;
 }
 
 /*
@@ -81,21 +87,29 @@
     padding-bottom: 3vh;
 }
 #tabcontent-hva-er{
-    background-color: #fffee2;
+    background-color: rgb(255, 203, 121);
     display: block;
+    color: black;
+    font-size: 20px;
 }
 #tabcontent-hode{
-    background-color: #a0e1eb;
+    background-color: #84C4E6;
     display: none;
+    color: black;
+    font-size: 20px;
 }
 #tabcontent-klode{
-    background-color: #bdefcd;
+    background-color: #B5D999;
     display: none;
     height: 70vh;
+    color: black;
+    font-size: 20px;
 }
 #tabcontent-hva-kan{
-    background-color: #bb9ac9;
+    background-color: rgb(218, 124, 121);
     display: none;
+    color: black;
+    font-size: 20px;
 }
 
 
@@ -113,15 +127,3 @@
 #TTL-tabs div{
     width: 25vw;
 }   
-
-/*
-        FOOTER
-*/
-#footer{
-    border-top: 1px solid darkgrey;
-    background-color: #2d2d2d;
-    color: lightgrey;
-    padding-top: 10px;
-    font-size: 3vh;
-    text-align: center;
-}
