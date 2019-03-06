@@ -1,11 +1,127 @@
+/*
+        GENERAL
+*/
+
 #outer-wrapper{
     display:flex;
-    flex-direction: row
+    flex-direction: column;
+    justify-content: space-between;
 }
 #top-bar{
     display: flex;
     flex-direction: column;
 }
-#tabcontent-hva-er{
+#hode-klode-content{
+    display: flex;
+    flex-direction: column;
+}
+
+#TTL-description{
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+}
+#TTL-title{
+    font-family: 'Oswald';
+    font-size: 8vh;
+    text-align: center;
+}
+#skylanders-image{
+    height: 80%;
+    margin-left: 42vw;
+}
+
+/*
+        TABS
+*/
+
+.tab{
+    font-family: 'Oswald';
+    color: #444;
+    font-size: 4vh;
+    cursor: pointer;
+    height: 7vh;
+    padding-left: 0.8vw;
+    font-weight: 500;
+}
+.tab:hover{
+    
+}
+#tab-hva-er{
+    background-color: #fffee2;
+    border: 1px solid #6d6a6a;
+    border-bottom-style: none;
+}
+#tab-hode{
+    background-color: #a0e1eb;
+    border: 1px solid #6f9ba1;
+    border-bottom-style: none;
+}
+#tab-klode{
     background-color: #bdefcd;
+    border: 1px solid #92b99e;
+    border-bottom-style: none;
+}
+#tab-hva-kan{
+    background-color: #bb9ac9;
+    border: 1px solid #8d7497;
+    border-bottom-style: none;
+}
+
+/*
+        TAB CONTENT
+*/
+
+.tabcontent{
+    color: #444;
+    padding-top: 5vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    height: 65vh;
+    padding-bottom: 3vh;
+}
+#tabcontent-hva-er{
+    background-color: #fffee2;
+    display: block;
+}
+#tabcontent-hode{
+    background-color: #a0e1eb;
+    display: none;
+}
+#tabcontent-klode{
+    background-color: #bdefcd;
+    display: none;
+    height: 70vh;
+}
+#tabcontent-hva-kan{
+    background-color: #bb9ac9;
+    display: none;
+}
+
+
+/*
+        TOYS-TO-LIFE (TTL)
+*/
+
+#TTL-logo{
+    width: 10vw;
+}
+#TTL-tabs{
+    display: flex;
+    flex-direction: row;
+}
+#TTL-tabs div{
+    width: 25vw;
+}   
+
+/*
+        FOOTER
+*/
+#footer{
+    border-top: 1px solid darkgrey;
+    background-color: #2d2d2d;
+    color: lightgrey;
+    padding-top: 10px;
+    font-size: 3vh;
+    text-align: center;
 }
