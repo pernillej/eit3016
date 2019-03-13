@@ -1,43 +1,15 @@
 <html>
     <head>
-        <meta charset="UTF-8">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/css/bootstrap.min.css" integrity="sha384-PDle/QlgIONtM1aqA2Qemk5gPOE7wFq8+Em+G/hmo5Iq0CCmYZLv3fVRDJ4MMwEA" crossorigin="anonymous">
-        <link rel="stylesheet" href="../style/toystolife.css">
+        <link rel="stylesheet" href="../style/toystolifeadult.css">
         <link rel="stylesheet" href="../style/index.css"/>
         <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
     </head>
     <body>
         <div id="outer-wrapper">
             <div class="container-fluid nav-container">
                 <nav class="navbar navbar-expand-lg navbar-light">
-                        <a class="navbar-brand" href="index.html">
-                            <div id="logo-container">
-                                <div id="ta-vare-på">
-                                    <span>
-                                        TA VARE PÅ
-                                    </span>
-                                </div>
-                                <div id="logo-klode-container">
-                                    <span id="logo-klode-k">K</span>
-                                    <span id="logo-klode-l">L</span>
-                                    <span id="logo-klode-o">O</span>
-                                    <span id="logo-klode-d">D</span>
-                                    <span id="logo-klode-e">E</span>
-                                </div>
-                                <div id="logo-og-container">
-                                    <span>
-                                        OG
-                                    </span>
-                                </div>
-                                <div id="logo-hode-container">
-                                    <span id="logo-hode-h">H</span>
-                                    <span id="logo-hode-o">O</span>
-                                    <span id="logo-hode-d">D</span>
-                                    <span id="logo-hode-e">E</span>
-                                </div>
-                            </div>
-                        </a>
+                    <a class="navbar-brand" href="index.html">EIT3016</a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
@@ -60,7 +32,7 @@
                     <div class="nav navbar-right"> 
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link" href="toystolifeadult.html">For voksne</a>
+                                <a class="nav-link" href="toystolife.html">Hovedside</a>
                             </li>
                         </ul>
                     </div>
@@ -68,7 +40,10 @@
             </div>
             <div id="TTL-description">
                 <div id="TTL-title">
-                    Toys-to-Life
+                    Toys-to-Life 
+                </div>
+                <div id="voksne">
+                        for voksne
                 </div>
             </div>
             <div id="hode-klode-content">
@@ -158,7 +133,6 @@
                     document.getElementById("tabcontent-hode").style.display = "none"
                     document.getElementById("tabcontent-klode").style.display = "none"
                     document.getElementById("tabcontent-hva-kan").style.display = "block"
-
                 });
             }
             tabs();
