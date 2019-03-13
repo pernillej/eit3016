@@ -10,6 +10,15 @@
     background-color: #FAFAFA;
     padding-bottom: 5%;
 }
+.navbar-light .navbar-brand{
+    height:18vh;
+}
+@media (min-width: 992px){
+    .navbar-expand-lg .navbar-collapse{
+        margin-top: 5.5vh;
+        margin-left: 4vw;
+    }
+}
 
 .budskap-container {
     padding-top: 10px;
@@ -34,4 +43,98 @@
     align-content: center;
     text-align: center;
     border-top: 1px solid #FAFAFA;
+}
+
+/*
+    LOGO
+*/
+#logo-container span{
+    display: inline-block;
+    font-weight: 600;
+    font-family: "Oswald";
+} 
+
+#logo-container{
+    display:flex;
+    flex-direction: row;
+    height:15hv;
+}
+
+#logo-klode-container{
+    font-size: 10vh;
+    margin-right: 10px;
+    text-shadow: 2px 1px rgba(50, 90, 50);
+}
+#ta-vare-på{
+    margin-right: 6px;
+    font-size: 4vh;
+    line-height:20vh;
+    text-shadow: 1px 1px rgba(50,50,50,1);
+    color: rgba(110, 110, 110);
+
+}
+#logo-og-container{
+    margin-right: 6px;
+    font-size: 4vh;
+    line-height:20vh;
+    color: rgba(110, 110, 110);
+    text-shadow: 1px 1px rgba(50,50,50,1)
+}
+#logo-hode-container{
+    font-size: 10vh;
+    text-shadow: 2px 1px rgba(50, 50, 90);
+}
+
+#logo-klode-k{
+    padding:0;
+    margin-right:-21px;
+    color: rgb(106, 148, 73);
+}
+#logo-klode-l{
+    padding:0;
+    margin-right:-23px;
+    color: rgb(117, 161, 83);
+    transform: rotate(2deg);
+}
+#logo-klode-o{
+    padding:0;
+    margin-right:-21px;
+    color: rgba(181,217,153,1);
+    transform: rotate(-1deg)
+}
+#logo-klode-d{
+    padding:0;
+    margin-right:-21px;
+    margin-bottom:1px;
+    color: rgba(144,198,102,1);
+    transform: rotate(1deg);
+}
+#logo-klode-e{
+    padding:0;
+    color: rgb(117, 161, 83);
+    transform: rotate(-1deg);
+}
+
+#logo-hode-h{
+    padding:0;
+    margin-right:-21px;
+    color: rgb(52, 118, 153);
+}
+#logo-hode-o{
+    padding:0;
+    margin-right:-21px;
+    color: rgb(73, 168, 218);
+    transform: rotate(1deg)
+}
+#logo-hode-d{
+    padding:0;
+    margin-right:-21px;
+    color: rgb(132, 196, 230);
+    transform: rotate(-2deg)
+}
+#logo-hode-e{
+    padding:0;
+    margin-right:-21px;
+    color: rgb(65, 143, 185);
+    transform: rotate(1deg)
 }
