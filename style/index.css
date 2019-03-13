@@ -42,15 +42,17 @@
     -moz-box-shadow: 5px 5px 5px #818181;
 }*/
 
+/* 
+    NAV BAR
+*/
 .nav-container{
     background-color: #EEEEEE;
 }
-
-.footer-content {
-    align-content: center;
-    text-align: center;
-    border-top: 1px solid #FAFAFA;
+.navbar-nopadding{
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
 }
+
 
 /*
     LOGO
