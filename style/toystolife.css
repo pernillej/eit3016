@@ -91,24 +91,36 @@
     display: block;
     color: black;
     font-size: 20px;
+    a {
+        color: #F7B750
+    }
 }
 #tabcontent-hode{
     background-color: #84C4E6;
     display: none;
     color: black;
     font-size: 20px;
+    a {
+        color: #F7B750
+    }
 }
 #tabcontent-klode{
     background-color: #B5D999;
     display: none;
     color: black;
     font-size: 20px;
+    a {
+        color: #F7B750
+    }
 }
 #tabcontent-hva-kan{
     background-color: rgb(218, 124, 121);
     display: none;
     color: black;
     font-size: 20px;
+    a {
+        color: #F7B750
+    }
 }
 
 
